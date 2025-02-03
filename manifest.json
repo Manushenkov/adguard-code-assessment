@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "adguard code assessment",
+  "description": "adguard code assessment",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
