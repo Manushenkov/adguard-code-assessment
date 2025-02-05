@@ -1,0 +1,14 @@
+.user-rules-urls__textarea {
+    width: 100%;
+    min-height: 80px;
+}
+
+.user-rules-urls__textarea--error {
+    outline: 2px sold red;
+}
+
+.user-rules-urls__invalid-urls {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
