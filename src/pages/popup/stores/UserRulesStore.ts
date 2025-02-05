@@ -27,10 +27,7 @@ class UserRulesStore {
 
     if (this.invalidUrls.length) return;
 
-    this.userRulesCounts = await sendMessage(
-      Messages.UserRules,
-      this.userRuleUrls.split(","),
-    );
+    this.userRulesCounts = await sendMessage(Messages.UserRules, urls);
 
     await chrome.storage.local.set({
       [STORAGE_USER_RULES_URLS]: this.userRuleUrls,
