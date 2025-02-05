@@ -6,7 +6,7 @@ function isValidURL(url: string) {
     return false;
   }
 }
-
+// test change
 export function validateURLs(urls: string[]) {
   return urls.filter((url) => !isValidURL(url));
 }
