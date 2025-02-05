@@ -6,6 +6,7 @@ function isValidURL(url: string) {
     return false;
   }
 }
+
 export function validateURLs(urls: string[]) {
   return urls.filter((url) => !isValidURL(url));
 }
